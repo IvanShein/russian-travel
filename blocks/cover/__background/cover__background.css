@@ -1,0 +1,13 @@
+.cover__background {
+  max-width: 1184px;
+  width: 100%;
+  min-height: 740px;
+  background-image: url(../../../images/background.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #FFF;
+}

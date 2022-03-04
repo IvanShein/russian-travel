@@ -12,3 +12,23 @@
 .place:last-of-type {
   margin: 0;
 }
+
+@media screen and (max-width: 1280px) {
+  .place {
+    grid-template-columns: 440px 1fr;
+    grid-column-gap: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    grid-template-columns: 1fr;
+    grid-row-gap: 32px;
+    grid-template-areas:
+    "title"
+    "website"
+    "image"
+    "paragrahs";
+    margin-bottom: 50px;
+  }
+}

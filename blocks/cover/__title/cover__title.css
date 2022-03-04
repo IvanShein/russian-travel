@@ -11,3 +11,12 @@
   align-self: center;
   z-index: 3;
 }
+
+@media screen and (max-width: 768px) {
+  .cover__title {
+    margin: 0 0 16px;
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}

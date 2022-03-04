@@ -17,6 +17,6 @@
 * Улучшить кроссбраузерность и дописать все вендорные префиксы
 
 ## Ссылка на сайт:
-http://how-to-learn-eight.vercel.app/
+http://russian-travel-indol.vercel.app/
 
 ---

@@ -16,12 +16,12 @@
 
 @media screen and (max-width: 680px) {
 	.lead__subtitle {
-	  font-size: 4.23vw;
-	  line-height: 5vw;
+	  font-size: 5vw;
+	  line-height: 6vw;
 	}
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 368px) {
 	.lead__subtitle {
 	  max-width: calc(100% - 32px);
 	  font-size: 16px;

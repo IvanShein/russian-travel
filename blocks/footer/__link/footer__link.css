@@ -9,7 +9,7 @@
   margin: 0;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 680px) {
 	.footer__link {
 		margin: 0;
     margin-bottom: 32px;

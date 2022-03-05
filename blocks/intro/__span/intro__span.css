@@ -1,3 +1,5 @@
 .intro__span {
-  color: #FFF;   
+  color: #FFF;  
+  margin: 0; 
+  padding: 0;
 }

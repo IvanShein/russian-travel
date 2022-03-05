@@ -1,3 +1,5 @@
 .intro__span_accent {
   font-weight: bold;
+  margin: 0;
+  padding: 0;
 }

@@ -1,27 +1,19 @@
 .lead {
-  max-width: 984px;
+  max-width: calc(100% - 296px);
   margin: 0 auto;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 56px 0 92px;
-}
-
-@media screen and (max-width: 1280px) {
-  .lead {
-    max-width: 928px;
-  }
+  padding: 56px 0 0;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {
-  .lead {
-    max-width: 768px;
-  }
+	.lead {
+	  max-width: calc(100% - 96px);
+	  margin: 0 auto;
+      padding: 48px 0 0;
+	}
 }
-
 @media screen and (max-width: 768px) {
-  .lead {
-    max-width: 320px;
-  }
+	.lead {
+	  max-width: 100%;
+	}
 }

@@ -19,10 +19,14 @@
     
   <header class="header">
     <img  class="header__logo" src=./images/logo.svg alt="Карта России - логотип">
-    <div class="header__link-list">
-      <a href="#" class="link header__lang-link header__lang-link_active">Ru</a>
-      <a href="#" class="link header__lang-link">En</a>
-    </div>
+    <ul class="header__link-list">
+      <li class="header__link">
+        <a class="link header__lang-link header__lang-link_active" href="#">Ru</a>
+      </li>
+      <li class="header__link">
+        <a class="link header__lang-link" href="#">En</a>
+      </li>
+    </ul>
   </header>
 
 
@@ -35,7 +39,7 @@
     <section class="lead">
       
       <h1 class="lead__title">Путешествия по России</h1>
-      <h2 class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h2>
+      <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
       <img class="lead__image" src=./images/lead_image.jpg alt="В вагоне поезда, маршрут путешествия по России">
       <p class="lead__caption">ваша полка — верхняя</p>
 
@@ -62,7 +66,7 @@
       <ul class="intro__list">
         <li >
           <p class="intro__list-item">
-            <span>
+            <span class="intro__span_accent">
               Часовых поясов
             </span> 
             11
@@ -70,7 +74,7 @@
         </li>
         <li >
           <p class="intro__list-item">
-            <span>
+            <span class="intro__span_accent">
               Объектов природного наследия ЮНЕСКО
             </span> 
             12
@@ -78,7 +82,7 @@
         </li>
         <li>
           <p class="intro__list-item">
-            <span>
+            <span class="intro__span_accent">
               Объектов культурного наследия ЮНЕСКО
             </span> 
             16
@@ -86,7 +90,7 @@
         </li>
         <li>
           <p class="intro__list-item">
-            <span>
+            <span class="intro__span_accent">
               Природных заповедников
             </span> 
             105
@@ -94,7 +98,7 @@
         </li>
         <li>
           <p class="intro__list-item">
-            <span>
+            <span class="intro__span_accent">
               Аэропортов
             </span> 
             241
@@ -257,21 +261,16 @@
 
     <section class="cover">
 
-      <div class="cover__background">
-        <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" >
-          <h2 class="cover__title">
-            До Байкала «на собаках»
-          </h2>
-          <p class="cover__subtitle">
-            По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.
-          </p>
-        </a>
-      </div>
-
+      <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" >
+        <h2 class="cover__title">
+          До Байкала «на&nbsp;собаках»
+        </h2>
+        <p class="cover__subtitle">
+          По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.
+        </p>
+      </a>
+      
     </section>
-
-
-
 
   </main>
 

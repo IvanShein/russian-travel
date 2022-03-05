@@ -18,6 +18,7 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__link-list/header__link-list.css);
+@import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 
@@ -36,7 +37,8 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__list-item/intro__list-item.css);
-@import url(../blocks/intro/__list-item/_accent/intro__list-item_accent.css);
+@import url(../blocks/intro/__span/intro__span.css);
+@import url(../blocks/intro/__span/_accent/intro__span_accent.css);
 
 /* Photo-grid - section */
 

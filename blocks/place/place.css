@@ -1,8 +1,7 @@
 .place {
-  width: 100%;
   margin-bottom: 80px;
   display: grid;
-  grid-template-columns: 460px 1fr;
+  grid-template-columns: minmax(440px, 460px) 1fr;
   grid-gap: 48px 40px;
   grid-template-areas:
   "title website"
@@ -13,22 +12,24 @@
   margin: 0;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1024px) {
   .place {
     grid-template-columns: 440px 1fr;
     grid-column-gap: 32px;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .place {
+    margin-bottom: 73px;
     grid-template-columns: 340px 1fr;
     grid-column-gap: 28px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 425px) {
   .place {
+    margin-bottom: 50px;
     grid-template-columns: 1fr;
     grid-row-gap: 32px;
     grid-template-areas:
@@ -36,6 +37,5 @@
     "website"
     "image"
     "paragrahs";
-    margin-bottom: 50px;
   }
 }

@@ -7,20 +7,25 @@
 
 @media screen and (max-width: 1024px) {
 	.places {
-		max-width: calc(100% - 96px);
-		margin: 0 auto;
+	  max-width: calc(100% - 96px);
+	  margin: 0 auto;
 	}
 }
 @media screen and (max-width: 768px) {
 	.places {
-		max-width: calc(100% - 48px);
-    padding: 88px 0 0;
+	  max-width: calc(100% - 48px);
+      padding: 88px 0 0;
+	}
+}
+
+@media screen and (max-width: 680px) {
+	.places {
+	  max-width: 100%;
 	}
 }
 
 @media screen and (max-width: 425px) {
 	.places {
-    max-width: 100%;
-		padding: 64px 0 0;
+      padding: 64px 0 0;
 	}
 }

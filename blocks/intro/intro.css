@@ -7,20 +7,20 @@
 
 @media screen and (max-width: 1024px) {
 	.intro {
-		max-width: calc(100% - 96px);
-		margin: 0 auto;
+	  max-width: calc(100% - 96px);
+	  margin: 0 auto;
 	}
 }
 @media screen and (max-width: 768px) {
 	.intro {
-		max-width: calc(100% - 48px);
-		margin: 0 auto;
-		padding: 88px 0 0;
+	  max-width: calc(100% - 48px);
+	  margin: 0 auto;
+	  padding: 88px 0 0;
 	}
 }
 @media screen and (max-width: 425px) {
 	.intro {
-		max-width: calc(100% - 32px);
-		padding: 64px 0 0;
+	  max-width: calc(100% - 32px);
+	  padding: 64px 0 0;
 	}
 }

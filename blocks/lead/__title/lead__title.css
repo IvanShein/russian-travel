@@ -8,7 +8,14 @@
   text-align: center;
 }
 
-@media screen and (max-width: 685px) {
+@media screen and (max-width: 680px) {
+	.lead__title {
+		font-size: 12.5vw;
+		line-height: 14.5vw;
+	}
+}
+
+@media screen and (max-width: 425px) {
 	.lead__title {
 		max-width: calc(100% - 32px);
 		font-size: 40px;

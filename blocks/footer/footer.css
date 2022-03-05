@@ -5,21 +5,21 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-	align-items: center;
+  lign-items: center;
 }
 
 @media screen and (max-width: 768px) {
 	.footer {
-		padding-top: 88px;
-		max-width: calc(100% - 48px);
+	  padding-top: 88px;
+	  max-width: calc(100% - 48px);
 	}
 }
 
 @media screen and (max-width: 425px) {
 	.footer {
-		flex-direction: column;
-		align-items: flex-start;
-    padding-top: 64px;
-		max-width: calc(100% - 32px);
+	  flex-direction: column;
+	  align-items: flex-start;
+      padding-top: 64px;
+	  max-width: calc(100% - 32px);
 	}
 }
